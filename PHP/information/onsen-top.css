@@ -1,0 +1,182 @@
+body {
+    font-family: "Avenir Next";
+    /*このサイトに適したフォント要検討*/
+  }
+  
+  ul {
+    display: flex;
+    margin-top: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header-logo {
+    font-family: "HG行書体";
+    margin-top: -5%;
+    height: 300px;
+    color: darkorange;
+    text-align: center;
+    background-image: url("../../image/header.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .header-logo h2 {
+    padding-top: 5%;
+    font-size: 300%;
+  }
+  
+  .header-logo a {
+    text-decoration: none;
+    color: darkorange;
+  }
+
+  .header-logo span {
+    font-size: 50%;
+    background-color: white;
+  }
+  
+  .header-list {
+    background-color: brown;
+    font-size: 100%;
+  }
+  
+  .header-list ul {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0%;
+    max-width: 900px;
+    list-style-type: none;
+  }
+  
+  .header-list ul li {
+    position: relative;
+    width: 20%;
+    color: white;
+    padding: 13px 0px;
+  }
+  
+  .header-list a:hover {
+    color: #d67608;
+    font-weight: bold;
+  }
+  
+  .header-list a {
+    text-decoration: none;
+    color: white;
+  }
+  
+
+.main {
+background-color: white;
+}
+
+.detailTabs{
+    color: #d67608;
+    padding: 10px 30px;
+    font-size: 50px;
+}
+
+.slider img{
+    margin: 30px;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+
+.feature table{
+    margin:auto;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgb(238, 227, 227);
+}
+
+.feature th{
+    width: 200px;;
+}
+
+.feature td{
+    width: 500px;
+}
+
+.near-inshoku h4{
+    color: darkorange;
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+.inshoku{
+    overflow-x: scroll;
+    border: 5px solid #999;
+    background-color: #fff7ee;
+    padding: 5px;
+    display: flex;
+}
+
+.inshoku-information{
+    border: 3px solid white;
+    background-color: #ffeace;
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.one {
+    display: inline-block;
+    width: 750px;
+    margin-left: 5px;
+}
+
+.one input {
+    border: none;
+    background: #FFF;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bold;
+    color: blue;
+}
+
+.address {
+    font-size: 100%;
+}
+
+.memo {
+    font-size: 100%;
+    width: 40%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    background: #fff8e8;
+    border-left: solid 10px #ffc06e;
+}
+
+.near-omiyage h4{
+    color: darkorange;
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+.omiyage{
+    overflow-x: scroll;
+    border: 5px solid #999;
+    background-color: #fff7ee;
+    padding: 5px;
+    display: flex;
+}
+
+.omiyage-information{
+    border: 3px solid white;
+    background-color: #ffeace;
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.none{
+  color:#ff0000;
+  font-size: 20px;
+}
